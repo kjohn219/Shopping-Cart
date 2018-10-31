@@ -2,7 +2,19 @@ body{
     margin:20px;
     background-image: url("../shopping.jpg") ;
 }
+
+.btn-group-vertical{
+    top: 200px;
+    left: 500px;
+}
+
 .card{
+    top: 200px;
     float: right;
-    width: auto;
+    width: 300px;
+    right: 500px;
+    height: 325px;
 } 
+.card-title{
+    text-align: center;
+}
