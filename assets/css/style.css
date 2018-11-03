@@ -3,7 +3,7 @@ body{
     background-image: url("../shopping.jpg") ;
 }
 
-/* .btn-group-vertical{
+.btn-group-vertical{
     top: 200px;
     left: 500px;
 }
@@ -17,4 +17,4 @@ body{
 } 
 .card-title{
     text-align: center;
-} */ 
+} 
