@@ -1,4 +1,4 @@
-//onClick add to grocery list
+//onClick add to grocery list or filter
 $('#milk').on('click', function(){
 
 $('#bread').on('click', function(){
@@ -15,6 +15,21 @@ $('#grapes').on('click', function(){
 
 $('#eggs').on('click', function(){
 
+$('#dairy').on('click', function(){
+
+$('#junkFood').on('click', function(){
+
+$('#healthySnack').on('click', function(){
+
+//Build the list for the view
+const buildList = function (arrayName){
+    let newList = ''
+    for (let i = 0, i < arrayName.length, i++){
+        newList += '<i> ${arrayName[i].name'
+    }
+    $(".List").append(newList);
+}
+
 // onClick add the contact to array, clear html list, redraw list
 $('#btnAdd').on('click', function(){
     addContact();
@@ -26,4 +41,4 @@ $('#btnAdd').on('click', function(){
 });
 
 //runtime
-addContact();
+addContact()
